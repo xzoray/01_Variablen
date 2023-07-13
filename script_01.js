@@ -33,10 +33,34 @@
 // console.log(firstName + " " + familyName);
 
 /* JS is an untyped language! */
-let test;
+// let test;
 // test = "Figma";
 // test = 8;
- test = true;
+// test = true;
 
-console.log("Datentyp: " + typeof test);
-console.log("Inhalt: " + test);
+// console.log("Datentyp: " + typeof test);
+// console.log("Inhalt: " + test);
+
+/***** 03a Variablen vs. Konstanten *****/
+
+// let firstName = "Sohrab"; // Deklaration
+// firstName = "Soraya"; // Wertzuweisung
+// console.log(firstName); // Ausgabe
+
+// const firstName = "Sohrab"; // Deklaration
+// firstName = "Soraya"; // Wertzuweisung
+// console.log(firstName); // Ausgabe
+
+/***** 04 Berechnung *****/
+
+// let ageJohn, ageMark; // Deklaration
+// const birthYearJohn = 2000;
+// const birthYearMark = 1990;
+
+// let date = new Date(); // Systemfunktion Datum
+// let year = date.getFullYear(); // Daten liefern lassen!
+// ageJohn = year - birthYearJohn;
+// ageMark = year - birthYearMark;
+
+// console.log("ageJohn: " + ageJohn);
+// console.log("ageMark: " + ageMark);

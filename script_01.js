@@ -15,3 +15,10 @@
 
 /***** 02 Deklaration + Wertzuweisung I *******/
 
+let firstName;
+firstName = "Sohrab";
+console.log(firstName);
+
+let familyName;
+familyName = "Arenja";
+console.log(familyName);
